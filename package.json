@@ -1,0 +1,20 @@
+{
+  "name": "cs-546-lab-8",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+
+  },
+  "author": "Aman Pawar 10477801",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "blueimp-md5": "^2.19.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.4",
+    "handlebars": "^4.7.7"
+  }
+}

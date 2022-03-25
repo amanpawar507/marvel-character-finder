@@ -1,0 +1,33 @@
+body {
+  background-color: darkgray;
+}
+
+.title {
+  color: brown;
+}
+
+#txt {
+  font: italic small-caps bold 20px/30px Georgia, serif;
+}
+
+#sub {
+  color: darkblue;
+  width: 60px;
+  height: 30px;
+}
+
+#mk {
+  color: crimson;
+}
+
+.lists {
+  padding: 5px;
+}
+
+.lists a {
+  color: black;
+}
+
+#comics {
+  color: maroon;
+}

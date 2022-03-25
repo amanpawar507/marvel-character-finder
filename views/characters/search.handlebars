@@ -1,0 +1,8 @@
+<h1 class="title">{{title}}</h1>
+<h2 id="txt">{{{searchTerm}}}</h2>
+<a id="mk" href="/">Make another search</a>
+<ul>
+  {{#each marvelList}}
+    <li class="lists"><a href="/characters/{{id}}">{{name}}</a></li>
+  {{/each}}
+</ul>

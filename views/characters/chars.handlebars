@@ -1,0 +1,14 @@
+<div>
+  <h1 class="title">{{title}}</h1>
+  <img
+    src="{{character.thumbnail.path}}/landscape_medium.{{character.thumbnail.extension}}"
+    alt="{{title}}"
+  />
+  <p id="txt">{{{character.description}}}</p>
+  <h2 id="comics">Comics</h2>
+  <ul>
+    {{#each character.comics.items}}
+      <li class="lists">{{name}}</li>
+    {{/each}}
+  </ul>
+</div>
